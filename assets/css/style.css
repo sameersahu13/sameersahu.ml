@@ -745,6 +745,10 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
+  .icofont-navigation-menu:before {
+    content: "\efa2";
+    font-size: 40px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -966,12 +970,19 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+  .icofont-navigation-menu:before {
+    content: "\efa2";
+    font-size: 40px;
+  }
   .breadcrumbs ol {
     display: block;
   }
   .breadcrumbs ol li {
     display: inline-block;
   }
+  #hero {
+    background-position-x: right;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1059,6 +1070,14 @@ section {
     position: static;
     margin-top: 30px;
   }
+  .icofont-navigation-menu:before {
+    content: "\efa2";
+    font-size: 40px;
+}
+
+  #hero {
+    background-position-x: right;
+}
 }
 
 /*--------------------------------------------------------------
